@@ -1,2 +1,2 @@
-# Edumix
-Project
+# Edu-Repo
+Edumix Project
