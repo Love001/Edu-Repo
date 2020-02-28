@@ -51,7 +51,7 @@ if (isset($_GET['id'])) {
     $result1 = mysqli_query($conn, $sql1);
     $pizza1  = mysqli_fetch_assoc($result1);
     mysqli_free_result($result1);
-    mysqli_close($conn);
+    $conn->close();
 }
 include './templates/header.php';
 ?>
